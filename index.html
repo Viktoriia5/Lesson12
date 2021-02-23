@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form" action="">
+      <div class="tab__header">
+        <div class="active">Sign in</div>
+        <div>Join us</div>
+      </div>
+      <!--FORM-CONTENT-->
+      <div class="tab__content">
+        <div class="tab__body active">
+          <div class="form-element">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" />
+          </div>
+          <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+          </div>
+          <div class="form-element">
+            <input type="checkbox" id="remember-me" />
+            <label class="check" for="remember-me">Keep me signed in</label>
+          </div>
+          <br />
+          <div class="form-element">
+            <button type="submit">Sign in</button>
+          </div>
+          <div class="password-account">
+            <a href="#">
+              <div class="password">Forgot password</div>
+            </a>
+            <a href="#">
+              <div class="create_account">Create an account</div>
+            </a>
+          </div>
+        </div>
+        <!--Tab body copy-->
+        <div class="tab__body">
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-element">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" />
+          </div>
+          <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+          </div>
+          <br />
+          <div class="form-element">
+            <button type="submit">Join us</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="shade"></div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

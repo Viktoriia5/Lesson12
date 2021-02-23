@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Quicksand;
+}
+
+.form {
+  position: absolute;
+  padding: 50px 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: url("../images/Vector_Smart_Object.png") no-repeat center,
+    url("../images/Shape_1.png") no-repeat center;
+}
+.form .tab__header {
+  height: 50px;
+  text-align: center;
+  color: #e1c2f1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 400;
+}
+.tab__header .active {
+  color: #fbf6e4;
+  border-bottom: 2px solid #e66a64;
+}
+.form .tab__header > div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.form .tab__content .form-element {
+  margin: 10px 0;
+}
+.form .tab__content .form-element label {
+  color: #fbf6e4;
+  font-size: 16px;
+}
+.form-element label {
+   margin: 500px 0;
+  color: #fbf6e4;
+}
+.check{
+  color: #fbf6e4;
+font-size: 13px;
+}
+.form .tab__content .form-element input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  background-color: transparent;
+  outline: none;
+}
+.form .tab__content .form-element input[type="checkbox"] {
+  margin: 17px 5px 0 0;
+  width: 16px;
+  height: 16px;
+  background-color: #23ae92;
+}
+.form .tab__content .form-element label {
+  color: #111;
+}
+.form .tab__content .form-element button {
+  background-color: #23ae92;
+  color: #fbf6e4;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form .tab__content > div.active {
+  display: block;
+}
+.form .tab__content > div {
+  display: none;
+}
+.password-account {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 400;
+}
+.password-account a {
+  padding: 5px 0;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(150, 193, 218, 0.5);
+}
+.create_account,
+.password {
+  color: #b9b9cc;
+  text-decoration: none;
+}
+.shade {
+  background: url("../images/shadow.png");
+  width: 466px;
+  height: 196px;
+  opacity: 0.91;
+  z-index: -1;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
